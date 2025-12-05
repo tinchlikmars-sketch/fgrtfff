@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: #fff;
+}
+
+
+header {
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 100%;
+    letter-spacing: 5%;
+
+}
+
+.logo span {
+    color: #FF4D00;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #FF4D00;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff7a31, #ff4d00);
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+
+}
+
+.signup-btn:hover {
+    opacity: .85;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.box-text h1 span {
+    color: #FF7A50;
+}
+
+.box-text h1 {
+    width: 530px;
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 100%;
+    text-transform: capitalize;
+
+}
+
+.box-text p {
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+}
+
+.img-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+.hero-text h1 span {
+    color: #FF4D00;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    color: #666;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.explore-btn {
+    padding: 12px 28px;
+    background: #FF7A50;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.explore-btn:hover {
+    background: #ff7950a3;
+
+}
+
+.hero-img img {
+    width: 420px;
+}
+
+
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 124px 0 44px 0;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-img {
+    width: 400px;
+}
+
+.hero-right {
+    width: 45%;
+}
+
+.hero-right h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #333;
+}
+
+.img-right h1 {
+    margin-bottom: 95px;
+}
+
+.orange {
+    color: #ff7a40;
+}
+
+.green {
+    color: #00a06b;
+}
+
+.hero-right p {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #555;
+    width: 350px;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 12px 28px;
+    background: linear-gradient(90deg, #ff5800, #ff8b50);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn_see_more {
+    padding: 17px 44px;
+    border-radius: 30px 30px 0 30px;
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 141px;
+}
+
+
+.container {
+    max-width: 1171px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title span {
+    color: #ff6500;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    width: 361px;
+    overflow: hidden;
+    border-radius: 53px 0 0 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 361px;
+    height: 299px;
+}
+
+.card h3 {
+    margin: 22px 0 14px 0;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+.info div span {
+    color: #363853;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.btn {
+    background: #ff7b47;
+    color: white;
+    padding: 11px 33px;
+    text-decoration: none;
+    border-radius: 20px 20px 0 20px;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-left: 27px;
+}
+
+.btn:hover {
+    background: #ff5a18;
+}
+
+
+
+
+.app-section {
+    margin: 162px 0 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-box h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.text-box span {
+    color: #ff7440;
+}
+
+.text-box p {
+    width: 538px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #555;
+}
+
+
+.phones {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.phones img {
+    width: 220px;
+    border-radius: 35px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.p1 {
+    transform: rotate(-10deg);
+}
+
+.p2 {
+    transform: rotate(0deg);
+}
+
+.p3 {
+    transform: rotate(10deg);
+}
+
+
+.subscribe {
+    background: linear-gradient(90deg, #ff7a45, #fb5434);
+    padding: 70px 10%;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 15px 15px 0 0;
+}
+
+.subscribe h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe-box {
+    background: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.subscribe-box button {
+    padding: 12px 28px;
+    background: #ff7a45;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+    background: #ff5722;
+}
+
+
+@media (max-width: 900px) {
+    .app-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .phones {
+        justify-content: center;
+    }
+
+    .subscribe-box {
+        width: 90%;
+    }
+}
